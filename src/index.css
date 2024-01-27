@@ -1,0 +1,58 @@
+
+*{
+    text-align: center;
+}
+h1{
+    margin-top: 8%;
+    margin-bottom: 3%;
+    background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #119f70, #64132a);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+
+  text-align: center;
+}
+
+span{
+    background-color: red;
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+    border-radius: 1rem;
+    padding: 20px;
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #119f70, #64132a);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent;  */
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+    h1{
+        margin-bottom: 5%;
+    }
+    span{
+        font-size: 2rem;
+    }
+}
